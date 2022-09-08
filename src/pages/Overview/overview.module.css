@@ -1,0 +1,105 @@
+.overview {
+    padding-bottom: 65px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    text-transform: uppercase;
+    font-family: 'Monument Extended', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+
+.text-blue {
+    background: blue;
+}
+
+.cards {
+    width: 831px;
+    margin: 77px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 277px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 38px;
+}
+
+.card:hover {
+    background: linear-gradient(204.28deg, rgba(255, 255, 255, 0.062) 74.21%, rgba(255, 255, 255, 0) 98.65%);
+    backdrop-filter: blur(197px);
+    border-radius: 10px;
+}
+
+.title-card {
+    display: flex;
+    gap: 47px;
+    margin: 10px 0 31px 0;
+    padding-left: 60px;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.card-subtitle {
+    width: 220px;
+    padding-left: 60px;
+    text-align: start;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 131.4%;
+}
+
+.pyramid {
+    margin-bottom: 31px;
+}
+
+.block-button {
+    width: 184px;
+    margin: auto;
+    position: relative;
+}
+
+.block-icons {
+    margin: auto;
+    width: 184px;
+    height: 55px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: linear-gradient(204.28deg, rgba(255, 255, 255, 0.093) 37.35%, rgba(255, 255, 255, 0) 98.65%);
+    backdrop-filter: blur(100px);
+    border-radius: 12px;
+}
+
+.button {
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 22px;
+    top: -13px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+}

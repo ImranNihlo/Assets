@@ -1,0 +1,94 @@
+.works {
+    padding-bottom: 163px;
+}
+
+.title1, .title2 {
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    text-transform: uppercase;
+}
+
+.title2 {
+    padding-left: 30px;
+}
+
+.block-subtitle {
+    display: flex;
+    margin: 50px 0 52px 0;
+}
+
+.line-blue {
+    height: 68px;
+    border-right: 3px solid #0189FF;
+}
+
+.line {
+    height: 67px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.subtitle {
+    width: 244px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+
+.text-blue {
+    background: blue;
+}
+
+.works-content {
+    display: flex;
+    margin-top: 93px;
+}
+
+.vertical-menu {
+    width: 100px;
+    padding-top: 100px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.right-column {
+
+}
+
+.block-button {
+    width: 184px;
+    position: relative;
+}
+
+.block-icons {
+    margin: auto;
+    width: 184px;
+    height: 55px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: linear-gradient(204.28deg, rgba(255, 255, 255, 0.093) 37.35%, rgba(255, 255, 255, 0) 98.65%);
+    backdrop-filter: blur(100px);
+    border-radius: 12px;
+}
+
+.button {
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 22px;
+    top: -13px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+}

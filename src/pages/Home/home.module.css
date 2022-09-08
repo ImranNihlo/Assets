@@ -1,0 +1,139 @@
+.homepage {
+
+}
+
+.homepage-content {
+    display: flex;
+    padding: 37px 0 80px 0;
+}
+
+.vertical-menu {
+    width: 100px;
+    padding-top: 100px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.left-menu li {
+    width: 10px;
+    transform: rotate(90deg);
+    margin-bottom: 75px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+
+}
+
+.title, .title2, .title3 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    text-transform: uppercase;
+    font-family: 'Monument Extended', sans-serif;
+}
+
+.title2 {
+    padding-left: 42px;
+}
+
+.title3 {
+    padding-left: 15px;
+}
+
+.right-column {
+    padding: 180px 35px 0 0;
+    line-height: 137.4%;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+}
+
+.text {
+    width: 246px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 96px;
+}
+
+.text-blue {
+    background: blue;
+}
+
+.trusted {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 70px 0 46px 0;
+}
+
+.subtitle-row {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 32px;
+    height: 3px;
+    background: #0186FD;
+    margin-right: 15px;
+}
+
+.homepage-button {
+    width: 184px;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+.block-icons {
+    width: 184px;
+    height: 55px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #FFFFFF;
+    backdrop-filter: blur(100px);
+    border-radius: 12px;
+}
+
+.button {
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 22px;
+    top: -13px;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.homepage-partner {
+    width: 69px;
+    margin-right: 27px;
+}
+
+.homepage-awwards {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
