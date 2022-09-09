@@ -9,10 +9,6 @@
     font-display: fallback;
 }
 
-.app {
-    background: black;
-}
-
 .container {
     max-width: 1240px;
     margin: auto;

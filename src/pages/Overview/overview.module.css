@@ -2,6 +2,21 @@
     padding-bottom: 65px;
 }
 
+.video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.position {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
 .title {
     font-weight: 400;
     font-size: 70px;
