@@ -3,6 +3,7 @@ import partner from "../../images/partner.svg"
 import style from "./home.module.css";
 import demo from '../../images/arrow-top.svg'
 import homepage_fon from '../../background/homepage-fon.mp4'
+import Group_partners from "../../images/Group-partners.png"
 
 function Home (props) {
   return (
@@ -11,25 +12,25 @@ function Home (props) {
       <div className={style.position}>
         <div className="container">
           <div className={style["homepage-content"]}>
-            <div className={style["vertical-menu"]}>
-              {/*<ul className="left-menu">*/}
-              {/*  <li>*/}
-              {/*    home*/}
-              {/*  </li>*/}
-              {/*  <li>*/}
-              {/*    .*/}
-              {/*  </li>*/}
-              {/*  <li>*/}
-              {/*    overview*/}
-              {/*  </li>*/}
-              {/*  <li>*/}
-              {/*    .*/}
-              {/*  </li>*/}
-              {/*  <li>*/}
-              {/*    our clients*/}
-              {/*  </li>*/}
-              {/*</ul>*/}
-            </div>
+            {/*<div className={style["vertical-menu"]}>*/}
+            {/*  <ul className={style["left-menu"]}>*/}
+            {/*    <li>*/}
+            {/*      home*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      .*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      overview*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      .*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      our clients*/}
+            {/*    </li>*/}
+            {/*  </ul>*/}
+            {/*</div>*/}
             <div className={style.content}>
               <div className={style["left-column"]}>
                 <h1 className={style.title}>
@@ -46,9 +47,9 @@ function Home (props) {
                     <div className={style.line}/>
                     With the World’s Fastest
                   </div>
-                  <p>
+                  <span>
                     Data Collection Apps
-                  </p>
+                  </span>
                 </div>
                 <div className={style["homepage-button"]}>
                   <div className={style["block-icons"]} />
@@ -70,9 +71,10 @@ function Home (props) {
                 <div className={style.text}>
                   Streamlining building <span className={style["text-blue"]}>asset</span> data collection & validation – Creating live and accurate asset data
                 </div>
-                <p className={style.trusted}>
+                <span className={style.trusted}>
                   trusted by
-                </p>
+                </span>
+                <img src={Group_partners} alt="Group-partners" className={style["group-partners"]}/>
               </div>
             </div>
           </div>

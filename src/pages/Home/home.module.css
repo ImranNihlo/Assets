@@ -31,16 +31,19 @@
     line-height: 17px;
 }
 
-.left-menu li {
-    width: 10px;
+.left-menu {
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 30px;
     transform: rotate(90deg);
-    margin-bottom: 75px;
 }
 
 .content {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
 }
 
 .left-column {
@@ -64,7 +67,8 @@
 }
 
 .right-column {
-    padding: 180px 35px 0 0;
+    max-width: 304px;
+    padding-top: 180px;
     line-height: 137.4%;
     letter-spacing: 0.035em;
     text-transform: uppercase;
@@ -74,7 +78,7 @@
     width: 246px;
     font-weight: 800;
     font-size: 15px;
-    margin-bottom: 96px;
+    margin: 0 0 96px 28px;
 }
 
 .text-blue {
@@ -84,6 +88,7 @@
 .trusted {
     font-size: 13px;
     font-weight: 700;
+    margin-left: 28px;
 }
 
 .subtitle {
@@ -151,4 +156,9 @@
     align-items: center;
     font-size: 13px;
     font-weight: 700;
+}
+
+.group-partners {
+    max-width: 304px;
+    margin-top: 29px;
 }

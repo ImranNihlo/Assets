@@ -1,9 +1,13 @@
 import React from 'react'
 import style from "./howItWorks.module.css"
 import hotItWorks_fon from '../../background/howItWorks_fon.mp4'
-import sirius from "../../images/Platonic_4.png"
+import platonic_1 from "../../images/Platonic_1.png"
+import sirius from "../../images/Sirius.png"
+import { NavLink, Route } from 'react-router-dom'
+import SlideRoutes from 'react-slide-routes'
 
 function HowItWorks (props) {
+
   return (
     <div className={style.works}>
       <video src={hotItWorks_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
@@ -13,11 +17,22 @@ function HowItWorks (props) {
             <h1 className={style.title1}>
               how it
             </h1>
-            <img src={sirius} alt="sirius"/>
+            <div className={style["block-image"]}>
+              <img src={platonic_1} alt="platonic_1" className={style.platonic1}/>
+              <img src={sirius} alt="platonic_1" className={style.sirius}/>
+            </div>
             <h1 className={style.title2}>
               works
             </h1>
           </div>
+          <nav>
+            <NavLink to="about">About</NavLink>
+            <NavLink to="contact">Contact</NavLink>
+          </nav>
+          <SlideRoutes>
+            <Route path="/" element={<p>about</p>} />
+            <Route path="/contact" element={<p>contact</p>} />
+          </SlideRoutes>
         </div>
       </div>
     </div>

@@ -30,3 +30,33 @@
 .title2 {
     color: blue;
 }
+
+.block-image {
+    position: relative;
+    margin: 0 5px;
+}
+
+.platonic1 {
+    position: absolute;
+    top: 5px;
+}
+
+.sirius {
+    width: 80px;
+}
+
+.slider {
+    max-width: 914px;
+    margin: auto;
+}
+
+.slider-line {
+    display: inline-flex;
+    transition: all ease 1s;
+    position: relative;
+    left: 0;
+}
+
+.slider-item {
+    width: 914px;
+}
