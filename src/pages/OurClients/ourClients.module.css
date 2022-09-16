@@ -1,11 +1,13 @@
 .clients {
     padding: 163px 0 123px 0;
-    margin-bottom: 46px;
+    margin-bottom: 175px;
     position: relative;
+    height: 100vh;
 }
 
 .video {
     width: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;

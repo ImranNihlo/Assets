@@ -64,3 +64,8 @@
 .slider-item {
     width: 914px;
 }
+
+.subtract {
+    background-blend-mode: multiply;
+    padding-bottom: 6px;
+}

@@ -1,7 +1,8 @@
 .overview {
     position: relative;
     padding: 131px 0 65px 0;
-    margin-bottom: 46px;
+    margin-bottom: 175px;
+    height: 100vh;
 }
 
 .video {

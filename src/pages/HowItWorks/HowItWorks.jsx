@@ -3,6 +3,7 @@ import style from "./howItWorks.module.css"
 import hotItWorks_fon from '../../background/howItWorks_fon.mp4'
 import platonic_1 from "../../images/Platonic_1.png"
 import sirius from "../../images/Sirius.png"
+import subtract from "../../images/Subtract.png"
 import { NavLink, Route } from 'react-router-dom'
 import SlideRoutes from 'react-slide-routes'
 
@@ -21,9 +22,10 @@ function HowItWorks (props) {
               <img src={platonic_1} alt="platonic_1" className={style.platonic1}/>
               <img src={sirius} alt="platonic_1" className={style.sirius}/>
             </div>
-            <h1 className={style.title2}>
-              works
-            </h1>
+            <img src={subtract} alt="subtract" className={style.subtract}/>
+            {/*<h1 className={style.title2}>*/}
+            {/*  works*/}
+            {/*</h1>*/}
           </div>
         </div>
       </div>

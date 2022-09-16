@@ -1,11 +1,13 @@
 .homepage {
     position: relative;
     padding: 174px 0 80px 0;
-    margin-bottom: 94px;
+    margin-bottom: 170px;
+    height: 100vh;
 }
 
 .video {
     width: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
