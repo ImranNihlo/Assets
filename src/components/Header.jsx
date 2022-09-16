@@ -16,22 +16,22 @@ function Header (props) {
             <nav>
               <ul className={style.menu}>
                 <li className={style["menu-li"]}>
-                  <NavLink to="/">Home</NavLink>
+                  Home
                 </li>
                 <li className={style["menu-li"]}>
-                  <NavLink to="/overview">Our Clients</NavLink>
+                  Our Clients
                 </li>
                 <li className={style["menu-li"]}>
-                  <NavLink to="/our-story">News</NavLink>
+                  News
                 </li>
                 <li className={style["menu-li"]}>
-                  <NavLink to="/our-clients">Contact</NavLink>
+                  Contact
                 </li>
               </ul>
             </nav>
           </div>
           <div className={style["sign-in"]}>
-            <NavLink to="/hot-in-works">Sign in</NavLink>
+            Sign in
             <img src={arrow} alt="arrow" className={style.arrow}/>
           </div>
         </div>

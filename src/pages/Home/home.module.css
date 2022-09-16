@@ -1,5 +1,7 @@
 .homepage {
-
+    position: relative;
+    padding: 174px 0 80px 0;
+    margin-bottom: 94px;
 }
 
 .video {
@@ -19,7 +21,6 @@
 
 .homepage-content {
     display: flex;
-    padding: 37px 0 80px 0;
 }
 
 .vertical-menu {

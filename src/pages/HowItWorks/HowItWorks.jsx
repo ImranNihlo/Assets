@@ -25,14 +25,6 @@ function HowItWorks (props) {
               works
             </h1>
           </div>
-          <nav>
-            <NavLink to="about">About</NavLink>
-            <NavLink to="contact">Contact</NavLink>
-          </nav>
-          <SlideRoutes>
-            <Route path="/" element={<p>about</p>} />
-            <Route path="/contact" element={<p>contact</p>} />
-          </SlideRoutes>
         </div>
       </div>
     </div>
