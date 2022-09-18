@@ -212,7 +212,8 @@
 }
 
 .switch-text {
-    width: 170px;
+    width: 210px;
+    padding-top: 3px;
     font-family: 'Monument Extended', sans-serif;
     font-style: normal;
     font-weight: 400;

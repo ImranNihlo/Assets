@@ -39,7 +39,7 @@ function HowItWorks (props) {
             <div className={style.switch}>
               <button className="carousel-control-prev switch-left-btn" type="button" data-bs-target="#carouselExampleControls"
                       data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="carousel-control-prev-icon carousel-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
               </button>
               <span className={style["switch-text"]}>
@@ -47,7 +47,7 @@ function HowItWorks (props) {
               </span>
               <button className="carousel-control-next switch-right-btn" type="button" data-bs-target="#carouselExampleControls"
                       data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="carousel-control-next-icon carousel-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
               </button>
             </div>

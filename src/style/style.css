@@ -21,3 +21,16 @@
     position: inherit;
 }
 
+.carousel-prev-icon, .carousel-next-icon {
+    width: 13px;
+    height: 13px;
+}
+
+.carousel-prev-icon {
+    background-image: url("../images/arrow-works-gray.svg");
+}
+
+.carousel-next-icon {
+    background-image: url("../images/arrow-works-right-gray.svg");
+}
+
