@@ -14,9 +14,10 @@
     margin: auto;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
+    position: relative;
 }
 
-p {
-    color: red;
+.switch-left-btn, .switch-right-btn {
+    position: inherit;
 }
 

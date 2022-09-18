@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../images/AIassetsLogo.svg'
 import arrow from "../images/Arrow 1.svg"
 import style from "./header.module.css"
-import { NavLink } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function Header (props) {
   return (
@@ -11,21 +11,31 @@ function Header (props) {
         <div className={style["header-content"]}>
           <div className={style["header-left"]}>
             <div>
-              <img src={logo} alt="logo"/>
+              <HashLink to="#home" smooth>
+                <img src={logo} alt="logo"/>
+              </HashLink>
             </div>
             <nav>
               <ul className={style.menu}>
                 <li className={style["menu-li"]}>
-                  Home
+                  <HashLink to="#home" smooth>
+                    Home
+                  </HashLink>
                 </li>
                 <li className={style["menu-li"]}>
-                  Our Clients
+                  <HashLink to="#clients" smooth>
+                    Our Clients
+                  </HashLink>
                 </li>
                 <li className={style["menu-li"]}>
-                  News
+                  <HashLink to="#news" smooth>
+                    News
+                  </HashLink>
                 </li>
                 <li className={style["menu-li"]}>
-                  Contact
+                  <HashLink to="#contact" smooth>
+                    Contact
+                  </HashLink>
                 </li>
               </ul>
             </nav>

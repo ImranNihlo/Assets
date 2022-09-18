@@ -1,4 +1,4 @@
-.works {
+.story {
     padding-bottom: 163px;
 }
 
@@ -43,7 +43,7 @@
     background: blue;
 }
 
-.works-content {
+.story-content {
     display: flex;
     margin-top: 93px;
 }

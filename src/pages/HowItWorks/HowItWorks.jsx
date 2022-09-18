@@ -4,13 +4,18 @@ import hotItWorks_fon from '../../background/howItWorks_fon.mp4'
 import platonic_1 from "../../images/Platonic_1.png"
 import sirius from "../../images/Sirius.png"
 import subtract from "../../images/Subtract.png"
-import { NavLink, Route } from 'react-router-dom'
-import SlideRoutes from 'react-slide-routes'
+import vector from "../../images/Vector.png"
+import assets_folder from "../../images/Assets_folder.png"
+import nout from "../../images/Nout.png"
+import assets_chart from "../../images/Assets_chart.png"
+import ContentsTop from './ContentsTop'
+import ContentsBottom from './ContentsBottom'
+import arrow_works_top from "../../images/Arrow-works-top.png"
+import demo from '../../images/arrow-top.svg'
 
 function HowItWorks (props) {
-
   return (
-    <div className={style.works}>
+    <div className={style.works} id="works">
       <video src={hotItWorks_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
@@ -26,6 +31,112 @@ function HowItWorks (props) {
             {/*<h1 className={style.title2}>*/}
             {/*  works*/}
             {/*</h1>*/}
+          </div>
+          <div className={style["switch-block"]}>
+            <div className={style["switch-left"]}>
+              <p>traditional</p> method
+            </div>
+            <div className={style.switch}>
+              <button className="carousel-control-prev switch-left-btn" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <span className={style["switch-text"]}>
+                choose a side
+              </span>
+              <button className="carousel-control-next switch-right-btn" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div className={style["switch-right"]}>
+              <p>AI Assets</p> method
+            </div>
+          </div>
+          <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval={5000000}>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className={style["works-content"]}>
+                  <ContentsTop />
+                  <div className={style.vector}>
+                    <img src={vector} alt="vector"/>
+                  </div>
+                  <ContentsBottom />
+                  <div className={style["traditional-button-block"]}>
+                    <div className={style["traditional-icons"]} />
+                    <div className={style["traditional-button"]}>
+                      <div>
+                        DISCOVER AI ASSETS METHODS
+                      </div>
+                      <img src={arrow_works_top} alt="arrow_works_top" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className={style["assets-method"]}>
+                  <h4 className={style["assets-title"]}>
+                    <p>Create a live asset register through the power</p>
+                    of <span className={style["assets-blue"]}>Artificial Intelligence</span>
+                  </h4>
+                  <div className={style["assets-block"]}>
+                    <div className={style["block1"]}>
+                      <div className={style["assets-number"]}>
+                        01
+                      </div>
+                      <div className={style["assets-img"]}>
+                        <img src={assets_folder} alt="assets_folder" className={style["assets_folder"]}/>
+                      </div>
+                      <div className={style["assets-block-title"]}>
+                        collect or update data
+                      </div>
+                      <div className={style["assets-description"]}>
+                        Quickly & consistently collect or update building asset data with the world’s fastest surveying Mobile-App
+                      </div>
+                    </div>
+                    <div className={style["block2"]}>
+                      <div className={style["assets-number"]}>
+                        02
+                      </div>
+                      <div className={style["assets-img"]}>
+                        <img src={nout} alt="nout" className={style.nout}/>
+                      </div>
+                      <div className={style["assets-block-title"]}>
+                        sync to a cloud
+                      </div>
+                      <div className={style["assets-description"]}>
+                        Instantly sync to a cloud based Web-portal
+                      </div>
+                    </div>
+                    <div className={style["block3"]}>
+                      <div className={style["assets-number"]}>
+                        03
+                      </div>
+                      <div className={style["assets-img"]}>
+                        <img src={assets_chart} alt="assets_chart" className={style["assets_chart"]}/>
+                      </div>
+                      <div className={style["assets-block-title"]}>
+                        generate lifecycle reports
+                      </div>
+                      <div className={style["assets-description"]}>
+                        View comprehensive dashboards and generate lifecycle reports a click of a button
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={style["assets-button-block"]}>
+                  <div className={style["assets-icons"]} />
+                  <div className={style["assets-button"]}>
+                    <img src={demo} alt="demo" />
+                    <div>
+                      BOOK A DEMO
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

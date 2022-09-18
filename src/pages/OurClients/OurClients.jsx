@@ -11,7 +11,7 @@ import ourClients_fon from "../../background/ourclients-fon.mp4"
 
 function OurClients (props) {
   return (
-    <div className={style.clients}>
+    <div className={style.clients} id="clients">
       <video src={ourClients_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">

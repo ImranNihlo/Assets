@@ -4,33 +4,63 @@ import style from "./home.module.css";
 import demo from '../../images/arrow-top.svg'
 import homepage_fon from '../../background/homepage-fon.mp4'
 import Group_partners from "../../images/Group-partners.png"
+import { HashLink } from 'react-router-hash-link'
 
 function Home (props) {
   return (
-    <div className={style.homepage}>
+    <div className={style.homepage} id="home">
       <video src={homepage_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
           <div className={style["homepage-content"]}>
-            {/*<div className={style["vertical-menu"]}>*/}
-            {/*  <ul className={style["left-menu"]}>*/}
-            {/*    <li>*/}
-            {/*      home*/}
-            {/*    </li>*/}
-            {/*    <li>*/}
-            {/*      .*/}
-            {/*    </li>*/}
-            {/*    <li>*/}
-            {/*      overview*/}
-            {/*    </li>*/}
-            {/*    <li>*/}
-            {/*      .*/}
-            {/*    </li>*/}
-            {/*    <li>*/}
-            {/*      our clients*/}
-            {/*    </li>*/}
-            {/*  </ul>*/}
-            {/*</div>*/}
+            <div className={style["vertical-menu"]}>
+              <ul className={style["left-menu"]}>
+                <li className={style["menu-active"]}>
+                  <HashLink to="#home" smooth>
+                    home
+                  </HashLink>
+                </li>
+                <li className={style.point}>
+                  .
+                </li>
+                <li>
+                  <HashLink to="#overview" smooth>
+                    overview
+                  </HashLink>
+                </li>
+                <li className={style.point}>
+                  .
+                </li>
+                <li>
+                  <HashLink to="#clients" smooth className={style["menu-whitespace"]}>
+                    <span className={style["whitespace-right"]}>our</span> <span>clients</span>
+                  </HashLink>
+                </li>
+                <li className={style.point}>
+                  .
+                </li>
+                <li>
+                  <HashLink to="#works" smooth className={style["menu-whitespace"]}>
+                    <span className={style["whitespace-right"]}>how</span>
+                    <span className={style["whitespace-right"]}>it</span>
+                    <span>works</span>
+                  </HashLink>
+                </li>
+                <li className={style.point}>
+                  .
+                </li>
+                <li>
+                  <HashLink to="#story" smooth className={style["menu-whitespace"]}>
+                    <span className={style["whitespace-right"]}>our</span> <span>story</span>
+                  </HashLink>
+                </li>
+              </ul>
+              <div className={style.pages}>
+                <span className={style["active-pages"]}>01</span>
+                <span className={style["whitespace-right"]}>/</span>
+                <span>05</span>
+              </div>
+            </div>
             <div className={style.content}>
               <div className={style["left-column"]}>
                 <h1 className={style.title}>

@@ -26,20 +26,56 @@
 }
 
 .vertical-menu {
-    width: 100px;
-    padding-top: 100px;
+    width: 22px;
+    height: 360px;
+    margin-top: 100px;
+    overflow: auto;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 17px;
+    color: rgba(255, 255, 255, 0.36);
+    text-transform: uppercase;
+}
+
+.vertical-menu::-webkit-scrollbar {
+    width: 0;
+}
+
+.menu-active, .active-pages {
+    color: #FFFFFF;
 }
 
 .left-menu {
-    position: absolute;
+    position: relative;
+    top: 3%;
     left: 0;
     display: flex;
+    flex-direction: row-reverse;
     gap: 30px;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+}
+
+.pages {
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    transform: rotate(-90deg);
+}
+
+.menu-whitespace {
+    display: flex;
+}
+
+.whitespace-right, .active-pages {
+    margin-right: 8px;
+}
+
+.point {
+    color: #FFFFFF;
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
 }
 
 .content {

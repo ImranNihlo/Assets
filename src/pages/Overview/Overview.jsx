@@ -9,7 +9,7 @@ import overview_fon from '../../background/overview-fon.mp4'
 
 function Overview (props) {
   return (
-    <div className={style.overview}>
+    <div className={style.overview} id="overview">
       <video src={overview_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">

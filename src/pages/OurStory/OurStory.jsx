@@ -4,9 +4,9 @@ import demo from '../../images/arrow-top.svg'
 
 function OurStory (props) {
   return (
-    <div className={style.works}>
+    <div className={style.story} id="story">
       <div className="container">
-        <div className={style["works-content"]}>
+        <div className={style["story-content"]}>
           <div className={style["vertical-menu"]}>
 
           </div>
