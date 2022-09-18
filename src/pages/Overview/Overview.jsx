@@ -6,6 +6,9 @@ import pyramid from "../../images/Pyramid.png"
 import arrow_down from "../../images/arrow_down.svg"
 import demo from "../../images/arrow-top.svg"
 import overview_fon from '../../background/overview-fon.mp4'
+import eclipse from "../../images/Ellipse 1.png"
+import { HashLink } from 'react-router-hash-link'
+
 
 function Overview (props) {
   return (
@@ -13,6 +16,54 @@ function Overview (props) {
       <video src={overview_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
+          <div className={style["vertical-menu"]}>
+            <ul className={style["left-menu-overview"]}>
+              <li>
+                <HashLink to="#home" smooth>
+                  home
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li className={style["menu-active"]}>
+                <HashLink to="#overview" smooth>
+                  overview
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#clients" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>our</span> <span>clients</span>
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#works" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>how</span>
+                  <span className={style["whitespace-right"]}>it</span>
+                  <span>works</span>
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#story" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>our</span> <span>story</span>
+                </HashLink>
+              </li>
+            </ul>
+          </div>
+          <div className={style.pages}>
+            <span className={style["active-pages"]}>02</span>
+            <span className={style["whitespace-right"]}>/</span>
+            <span>05</span>
+          </div>
           <h1 className={style.title}>
             overview
           </h1>
@@ -24,8 +75,9 @@ function Overview (props) {
           </p>
           <div className={style.cards}>
             <div className={style.card}>
-              <div>
-                <img src={platonic_3} alt="platonic_3"/>
+              <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
+              <div className={style["card-img"]}>
+                <img src={platonic_3} alt="platonic_3" className={style["img-index"]}/>
               </div>
               <div className={style["title-card"]}>
                 <img src={arrow_down} alt="arrow_down"/>
@@ -38,8 +90,9 @@ function Overview (props) {
               </div>
             </div>
             <div className={style.card}>
-              <div>
-                <img src={platonic_4} alt="platonic_4"/>
+              <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
+              <div className={style["card-img"]}>
+                <img src={platonic_4} alt="platonic_4" className={style["img-index"]}/>
               </div>
               <div className={style["title-card"]}>
                 <img src={arrow_down} alt="arrow_down"/>
@@ -52,8 +105,9 @@ function Overview (props) {
               </div>
             </div>
             <div className={style.card}>
-              <div>
-                <img src={pyramid} alt="pyramid" className={style.pyramid}/>
+              <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
+              <div className={style["card-img"]}>
+                <img src={pyramid} alt="pyramid" className={style.pyramid} className={style["img-index"]}/>
               </div>
               <div className={style["title-card"]}>
                 <img src={arrow_down} alt="arrow_down"/>
