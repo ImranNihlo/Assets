@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from "./howItWorks.module.css"
 import hotItWorks_fon from '../../background/howItWorks_fon.mp4'
 import platonic_1 from "../../images/Platonic_1.png"
@@ -14,6 +14,10 @@ import arrow_works_top from "../../images/Arrow-works-top.png"
 import demo from '../../images/arrow-top.svg'
 
 function HowItWorks (props) {
+  const [active, setActive] = useState(true);
+  const handleClick = () => {
+    setActive(!active)
+  };
   return (
     <div className={style.works} id="works">
       <video src={hotItWorks_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
@@ -33,25 +37,39 @@ function HowItWorks (props) {
             {/*</h1>*/}
           </div>
           <div className={style["switch-block"]}>
-            <div className={style["switch-left"]}>
+            <div className={active ? `${style["switch-left"]}` : `${style["switch-right"]}`}>
               <p>traditional</p> method
             </div>
             <div className={style.switch}>
-              <button className="carousel-control-prev switch-left-btn" type="button" data-bs-target="#carouselExampleControls"
-                      data-bs-slide="prev">
-                <span className="carousel-control-prev-icon carousel-prev-icon" aria-hidden="true"></span>
+              <button
+                      className="carousel-control-prev switch-left-btn"
+                      type="button"
+                      data-bs-target="#carouselExampleControls"
+                      data-bs-slide="prev"
+                      onClick={handleClick}
+              >
+                <span className={active ? "carousel-control-prev-icon carousel-prev-icon-active" : "carousel-control-prev-icon carousel-prev-icon"}
+                      aria-hidden="true">
+                </span>
                 <span className="visually-hidden">Previous</span>
               </button>
               <span className={style["switch-text"]}>
                 choose a side
               </span>
-              <button className="carousel-control-next switch-right-btn" type="button" data-bs-target="#carouselExampleControls"
-                      data-bs-slide="next">
-                <span className="carousel-control-next-icon carousel-next-icon" aria-hidden="true"></span>
+              <button
+                      className="carousel-control-next switch-right-btn"
+                      type="button"
+                      data-bs-target="#carouselExampleControls"
+                      data-bs-slide="next"
+                      onClick={handleClick}
+              >
+                <span className={active ? "carousel-control-next-icon carousel-next-icon" : "carousel-control-next-icon carousel-next-icon-active"}
+                      aria-hidden="true">
+                </span>
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
-            <div className={style["switch-right"]}>
+            <div className={active ? `${style["switch-right"]}` : `${style["switch-left"]}`}>
               <p>AI Assets</p> method
             </div>
           </div>

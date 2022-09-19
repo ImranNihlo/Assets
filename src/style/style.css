@@ -21,7 +21,7 @@
     position: inherit;
 }
 
-.carousel-prev-icon, .carousel-next-icon {
+.carousel-prev-icon, .carousel-next-icon, .carousel-prev-icon-active, .carousel-next-icon-active {
     width: 13px;
     height: 13px;
 }
@@ -30,7 +30,15 @@
     background-image: url("../images/arrow-works-gray.svg");
 }
 
+.carousel-prev-icon-active {
+    background-image: url("../images/arrow-works.svg");
+}
+
 .carousel-next-icon {
     background-image: url("../images/arrow-works-right-gray.svg");
+}
+
+.carousel-next-icon-active {
+    background-image: url("../images/arrow-works-right.svg");
 }
 
