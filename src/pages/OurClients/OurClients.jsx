@@ -13,10 +13,10 @@ import MobileSlide from './components/MobileSlide'
 
 function OurClients (props) {
   const clientsMenu = document.querySelector("#clients-menu");
-  const funcScrool = () => {
-    clientsMenu.scrollTop = 100;
-  }
-  funcScrool();
+  // const funcScrool = () => {
+  //   clientsMenu.scrollTop = 100;
+  // }
+  // funcScrool();
   return (
     <div className={style.clients} id="clients">
       <video src={ourClients_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
