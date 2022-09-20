@@ -12,9 +12,9 @@ function App() {
     <div className="app">
       <Header />
       <MobileHeader />
-      <Home />
-      <Overview />
-      {/*<OurClients />*/}
+      {/*<Home />*/}
+      {/*<Overview />*/}
+      <OurClients />
       {/*<HowItWorks />*/}
       {/*<OurStory />*/}
     </div>

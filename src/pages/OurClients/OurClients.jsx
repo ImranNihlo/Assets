@@ -9,15 +9,21 @@ import wt from "../../images/wt.png"
 import sydney from "../../images/sydney.png"
 import ourClients_fon from "../../background/ourclients-fon.mp4"
 import { HashLink } from 'react-router-hash-link'
+import MobileSlide from './components/MobileSlide'
 
 function OurClients (props) {
+  const clientsMenu = document.querySelector("#clients-menu");
+  const funcScrool = () => {
+    clientsMenu.scrollTop = 100;
+  }
+  funcScrool();
   return (
     <div className={style.clients} id="clients">
       <video src={ourClients_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
           <div className={style["clients-content"]}>
-            <div className={style["vertical-menu"]}>
+            <div className={style["clients-vertical-menu"]} id="clients-menu">
               <ul className={style["left-menu-clients"]}>
                 <li>
                   <HashLink to="#home" smooth>
@@ -59,11 +65,11 @@ function OurClients (props) {
                   </HashLink>
                 </li>
               </ul>
-              <div className={style.pages}>
-                <span className={style["active-pages"]}>03</span>
-                <span className={style["whitespace-right"]}>/</span>
-                <span>05</span>
-              </div>
+            </div>
+            <div className={style.pages}>
+              <span className={style["active-pages"]}>03</span>
+              <span className={style["whitespace-right"]}>/</span>
+              <span>05</span>
             </div>
             <div className={style["right-column"]}>
               <h1 className={style.title1}>
@@ -72,6 +78,7 @@ function OurClients (props) {
               <h1 className={style.title2}>
                 CLIENTS
               </h1>
+              <MobileSlide />
               <div className={style["clients-section"]}>
                 <div className={style["block-clients-1"]}>
                   <img src={asset} alt="asset" className={style.asset}/>
