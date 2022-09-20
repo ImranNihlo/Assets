@@ -50,13 +50,11 @@ function MobileHeader (props) {
               contact
             </div>
           </li>
-          <li>
-            <div className="mobile-sign-in">
-              Sign in
-              <img src={arrow} alt="arrow" className={style.arrow}/>
-            </div>
-          </li>
         </ul>
+      </div>
+      <div className={activeBg ? "mobile-sign-in-active" : "mobile-sign-in"}>
+        Sign in
+        <img src={arrow} alt="arrow" className={style.arrow}/>
       </div>
     </>
   )

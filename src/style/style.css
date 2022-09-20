@@ -162,10 +162,17 @@
     gap: 15px;
 }
 
-.mobile-sign-in {
+.mobile-sign-in-active {
     position: absolute;
     bottom: 97px;
     left: 25px;
+    z-index: 57;
+    color: #FFFFFF;
+    display: block;
+}
+
+.mobile-sign-in {
+    display: none;
 }
 
 .mobile-menu-line {
