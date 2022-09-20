@@ -61,7 +61,7 @@ function Home (props) {
                 <span>05</span>
               </div>
             </div>
-            <div className={style.content}>
+            <div className={style["home-content"]}>
               <div className={style["left-column"]}>
                 <h1 className={style.title}>
                   SMARTER
@@ -75,11 +75,8 @@ function Home (props) {
                 <div className={style.subtitle}>
                   <div className={style["subtitle-row"]}>
                     <div className={style.line}/>
-                    With the World’s Fastest
+                    With the World’s Fastest Data Collection Apps
                   </div>
-                  <span>
-                    Data Collection Apps
-                  </span>
                 </div>
                 <div className={style["homepage-button"]}>
                   <div className={style["block-icons"]} />
@@ -101,9 +98,9 @@ function Home (props) {
                 <div className={style.text}>
                   Streamlining building <span className={style["text-blue"]}>asset</span> data collection & validation – Creating live and accurate asset data
                 </div>
-                <span className={style.trusted}>
+                <div className={style.trusted}>
                   trusted by
-                </span>
+                </div>
                 <img src={Group_partners} alt="Group-partners" className={style["group-partners"]}/>
               </div>
             </div>

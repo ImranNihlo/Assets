@@ -19,7 +19,7 @@ function OurClients (props) {
           <div className={style["clients-content"]}>
             <div className={style["vertical-menu"]}>
               <ul className={style["left-menu-clients"]}>
-                <li className={style["menu-active"]}>
+                <li>
                   <HashLink to="#home" smooth>
                     home
                   </HashLink>
@@ -35,7 +35,7 @@ function OurClients (props) {
                 <li className={style.point}>
                   .
                 </li>
-                <li>
+                <li className={style["menu-active"]}>
                   <HashLink to="#clients" smooth className={style["menu-whitespace"]}>
                     <span className={style["whitespace-right"]}>our</span> <span>clients</span>
                   </HashLink>
@@ -60,7 +60,7 @@ function OurClients (props) {
                 </li>
               </ul>
               <div className={style.pages}>
-                <span className={style["active-pages"]}>01</span>
+                <span className={style["active-pages"]}>03</span>
                 <span className={style["whitespace-right"]}>/</span>
                 <span>05</span>
               </div>
