@@ -162,8 +162,7 @@
     line-height: 19px;
 }
 
-
-.vertical-menu {
+.overview-vertical-menu {
     position: absolute;
     width: 22px;
     height: 360px;
@@ -177,7 +176,7 @@
     text-transform: uppercase;
 }
 
-.vertical-menu::-webkit-scrollbar {
+.overview-vertical-menu::-webkit-scrollbar {
     width: 0;
 }
 
@@ -228,8 +227,11 @@
         height: 100%;
         margin-bottom: 0;
         padding-top: 94px;
+        background-image: url("../../images/overview-mobile-bg.png");
+        background-size: cover;
     }
     .video {
+        display: none;
         height: 100%;
     }
     .vertical-menu {
@@ -247,7 +249,7 @@
         gap: 20px;
         margin-top: 46px;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
     .card {
         width: 340px;

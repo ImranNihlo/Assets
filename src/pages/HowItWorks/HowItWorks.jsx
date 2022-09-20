@@ -12,6 +12,7 @@ import ContentsTop from './ContentsTop'
 import ContentsBottom from './ContentsBottom'
 import arrow_works_top from "../../images/Arrow-works-top.png"
 import demo from '../../images/arrow-top.svg'
+import { HashLink } from 'react-router-hash-link'
 
 function HowItWorks (props) {
   const [active, setActive] = useState(true);
@@ -23,6 +24,54 @@ function HowItWorks (props) {
       <video src={hotItWorks_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
+          <div className={style["works-vertical-menu"]}>
+            <ul className={style["left-menu-works"]}>
+              <li>
+                <HashLink to="#home" smooth>
+                  home
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#overview" smooth>
+                  overview
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#clients" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>our</span> <span>clients</span>
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li className={style["menu-active"]}>
+                <HashLink to="#works" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>how</span>
+                  <span className={style["whitespace-right"]}>it</span>
+                  <span>works</span>
+                </HashLink>
+              </li>
+              <li className={style.point}>
+                .
+              </li>
+              <li>
+                <HashLink to="#story" smooth className={style["menu-whitespace"]}>
+                  <span className={style["whitespace-right"]}>our</span> <span>story</span>
+                </HashLink>
+              </li>
+            </ul>
+          </div>
+          <div className={style.pages}>
+            <span className={style["active-pages"]}>03</span>
+            <span className={style["whitespace-right"]}>/</span>
+            <span>05</span>
+          </div>
           <div className={style["block-title"]}>
             <h1 className={style.title1}>
               how it

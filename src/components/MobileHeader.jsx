@@ -30,15 +30,15 @@ function MobileHeader (props) {
           </li>
           <li>
             <div className="mobile-menu-line"/>
-            <div>
-              home
-            </div>
+            <HashLink to="#home" smooth>
+              Home
+            </HashLink>
           </li>
           <li>
             <div className="mobile-menu-line"/>
-            <div>
-              our clients
-            </div>
+            <HashLink to="#clients" smooth>
+              Our Clients
+            </HashLink>
           </li>
           <li><div className="mobile-menu-line"/>
             <div>

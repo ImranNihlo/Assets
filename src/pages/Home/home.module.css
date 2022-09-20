@@ -214,8 +214,11 @@
         height: 100%;
         margin-bottom: 0;
         padding-top: 125px;
+        background-image: url("../../images/home-mobile-bg.png");
+        background-size: cover;
     }
     .video {
+        display: none;
         height: 100%;
     }
     .home-content {

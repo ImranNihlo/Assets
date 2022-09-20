@@ -17,7 +17,7 @@ function Overview (props) {
       <video src={overview_fon} type="video/mp4" autoPlay muted loop className={style.video}></video>
       <div className={style.position}>
         <div className="container">
-          <div className={style["vertical-menu"]}>
+          <div className={style["overview-vertical-menu"]}>
             <ul className={style["left-menu-overview"]}>
               <li>
                 <HashLink to="#home" smooth>
