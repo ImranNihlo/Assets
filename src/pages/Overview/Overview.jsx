@@ -7,6 +7,7 @@ import arrow_down from "../../images/arrow_down.svg"
 import demo from "../../images/arrow-top.svg"
 import overview_fon from '../../background/overview-fon.mp4'
 import eclipse from "../../images/Ellipse 1.png"
+import card_bg from "../../images/card-bg.png"
 import { HashLink } from 'react-router-hash-link'
 
 
@@ -67,34 +68,33 @@ function Overview (props) {
           <h1 className={style.title}>
             overview
           </h1>
-          <p className={style.subtitle}>
-            AI Assets is <span className={style["text-blue"]}>80% faster</span> than traditional methods
-          </p>
-          <p className={style.subtitle}>
-            of asset management and has a raft of other benefits.
-          </p>
+          <div className={style.subtitle}>
+            AI Assets is <span className={style["text-blue"]}>80% faster</span> than traditional methods of asset management and has a raft of other benefits.
+          </div>
           <div className={style.cards}>
             <div className={style.card}>
+              <img src={card_bg} alt={card_bg} className={style["card-bg"]}/>
               <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
               <div className={style["card-img"]}>
                 <img src={platonic_3} alt="platonic_3" className={style["img-index"]}/>
               </div>
-              <div className={style["title-card"]}>
+              <div className={style["card-title"]}>
                 <img src={arrow_down} alt="arrow_down"/>
                 <span>
-              Collect
-            </span>
+                  Collect
+                </span>
               </div>
               <div className={style["card-subtitle"]}>
                 Quickly & efficiently collect building asset data, reducing your workload by up to 80%
               </div>
             </div>
             <div className={style.card}>
+              <img src={card_bg} alt={card_bg} className={style["card-bg"]}/>
               <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
               <div className={style["card-img"]}>
                 <img src={platonic_4} alt="platonic_4" className={style["img-index"]}/>
               </div>
-              <div className={style["title-card"]}>
+              <div className={style["card-title"]}>
                 <img src={arrow_down} alt="arrow_down"/>
                 <span>
               Empower
@@ -105,11 +105,12 @@ function Overview (props) {
               </div>
             </div>
             <div className={style.card}>
+              <img src={card_bg} alt={card_bg} className={style["card-bg"]}/>
               <img src={eclipse} alt="eclipse" className={style["card-sirius"]}/>
               <div className={style["card-img"]}>
                 <img src={pyramid} alt="pyramid" className={style.pyramid} className={style["img-index"]}/>
               </div>
-              <div className={style["title-card"]}>
+              <div className={style["card-title"]}>
                 <img src={arrow_down} alt="arrow_down"/>
                 <span>
               Update

@@ -55,11 +55,11 @@ function Home (props) {
                   </HashLink>
                 </li>
               </ul>
-              <div className={style.pages}>
-                <span className={style["active-pages"]}>01</span>
-                <span className={style["whitespace-right"]}>/</span>
-                <span>05</span>
-              </div>
+            </div>
+            <div className={style.pages}>
+              <span className={style["active-pages"]}>01</span>
+              <span className={style["whitespace-right"]}>/</span>
+              <span>05</span>
             </div>
             <div className={style["home-content"]}>
               <div className={style["left-column"]}>

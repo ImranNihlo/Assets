@@ -61,6 +61,11 @@
     left: 0;
     bottom: -10%;
     transform: rotate(-90deg);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.36);
 }
 
 .menu-whitespace {
@@ -76,6 +81,7 @@
     position: relative;
     bottom: 5px;
     font-size: 18px;
+    cursor: grab;
 }
 
 .home-content {
