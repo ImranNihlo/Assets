@@ -50,8 +50,8 @@ function MobileHeader (props) {
               contact
             </div>
           </li>
-          <li className="mobile-sign-in">
-            <div className={style["sign-in"]}>
+          <li>
+            <div className="mobile-sign-in">
               Sign in
               <img src={arrow} alt="arrow" className={style.arrow}/>
             </div>
