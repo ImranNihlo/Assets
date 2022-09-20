@@ -12,8 +12,8 @@ function App() {
     <div className="app">
       <Header />
       <MobileHeader />
-      {/*<Home />*/}
-      {/*<Overview />*/}
+      <Home />
+      <Overview />
       <OurClients />
       {/*<HowItWorks />*/}
       {/*<OurStory />*/}
