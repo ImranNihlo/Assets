@@ -434,3 +434,9 @@
     font-size: 18px;
     cursor: grab;
 }
+
+@media (max-width: 451px) {
+    .clients-vertical-menu {
+        display: none;
+    }
+}
