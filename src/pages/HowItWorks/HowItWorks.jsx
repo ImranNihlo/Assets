@@ -50,7 +50,7 @@ function HowItWorks (props) {
               <li className={style.point}>
                 .
               </li>
-              <li className={style["menu-active"]}>
+              <li  className={style["menu-active"]}>
                 <HashLink to="#works" smooth className={style["menu-whitespace"]}>
                   <span className={style["whitespace-right"]}>how</span>
                   <span className={style["whitespace-right"]}>it</span>
@@ -68,7 +68,7 @@ function HowItWorks (props) {
             </ul>
           </div>
           <div className={style.pages}>
-            <span className={style["active-pages"]}>03</span>
+            <span className={style["active-pages"]}>04</span>
             <span className={style["whitespace-right"]}>/</span>
             <span>05</span>
           </div>
@@ -122,7 +122,7 @@ function HowItWorks (props) {
               <p>AI Assets</p> method
             </div>
           </div>
-          <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval={5000000}>
+          <div id="carouselExampleControls" className="carousel slide works-slide" data-bs-ride="carousel" data-bs-interval={5000000}>
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className={style["works-content"]}>
