@@ -3,6 +3,7 @@ import logo from '../images/AIassetsLogo.svg'
 import arrow from "../images/Arrow 1.svg"
 import style from "./header.module.css"
 import { HashLink } from 'react-router-hash-link'
+import MobileHeader from './MobileHeader'
 
 function Header (props) {
   return (
@@ -45,6 +46,7 @@ function Header (props) {
             <img src={arrow} alt="arrow" className={style.arrow}/>
           </div>
         </div>
+        <MobileHeader />
       </div>
     </header>
   )

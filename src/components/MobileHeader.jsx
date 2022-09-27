@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 import style from './header.module.css'
 import arrow from '../images/Arrow 1.svg'
 
+
 function MobileHeader (props) {
   const [activeBg, setActiveBg] = useState(false);
   const handleActiveBg = () => {
