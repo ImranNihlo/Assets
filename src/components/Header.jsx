@@ -46,7 +46,6 @@ function Header (props) {
             <img src={arrow} alt="arrow" className={style.arrow}/>
           </div>
         </div>
-        <MobileHeader />
       </div>
     </header>
   )

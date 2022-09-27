@@ -48,7 +48,7 @@ ul li a {
 }
 
 @media (max-width: 700px) {
-    .header-content {
+    .header {
         display: none;
     }
 }
