@@ -190,11 +190,12 @@
     .story-content {
         display: block;
         padding-left: 25px;
-        margin-top: -70px;
     }
     .block-subtitle {
         margin-bottom: 72px;
-        padding-right: 125px;
+        display: flex;
+        justify-content: end;
+        padding-left: 30px;
     }
 
     .title1, .title2 {
