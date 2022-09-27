@@ -74,7 +74,10 @@ function HowItWorks (props) {
           </div>
           <div className={style["block-title"]}>
             <h1 className={style.title1}>
-              how it
+              how
+            </h1>
+            <h1 className={style["title1-it"]}>
+              it
             </h1>
             <div className={style["block-image"]}>
               <img src={platonic_1} alt="platonic_1" className={style.platonic1}/>
@@ -120,6 +123,15 @@ function HowItWorks (props) {
             </div>
             <div className={active ? `${style["switch-right"]}` : `${style["switch-left"]}`}>
               <p>AI Assets</p> method
+            </div>
+          </div>
+          <div className={style["assets-button-block-mobile"]}>
+            <div className={style["assets-icons"]} />
+            <div className={style["assets-button"]}>
+              <img src={demo} alt="demo" />
+              <div>
+                BOOK A DEMO
+              </div>
             </div>
           </div>
           <div id="carouselExampleControls" className="carousel slide works-slide" data-bs-ride="carousel" data-bs-interval={5000000}>

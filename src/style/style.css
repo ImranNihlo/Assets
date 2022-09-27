@@ -213,6 +213,18 @@
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+    .carousel-prev-icon, .carousel-prev-icon-active {
+       background-image: url("../images/arrow-top-gray.png");
+    }
+    .carousel-next-icon {
+        background-image: url("../images/arrow-bottom-gray.png");
+    }
+    .switch-left-btn, .switch-right-btn {
+        margin: 10px auto;
+    }
+    .works-slide {
+        display: none;
+    }
 }
 
 
