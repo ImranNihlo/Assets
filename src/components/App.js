@@ -12,11 +12,11 @@ function App() {
     <div className="app">
       <Header />
       <MobileHeader />
-      <Home />
+      {/*<Home />*/}
       <Overview />
-      <OurClients />
-      <HowItWorks />
-      <OurStory />
+      {/*<OurClients />*/}
+      {/*<HowItWorks />*/}
+      {/*<OurStory />*/}
     </div>
   );
 }

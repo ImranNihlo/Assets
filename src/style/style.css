@@ -216,7 +216,7 @@
     .carousel-prev-icon, .carousel-prev-icon-active {
        background-image: url("../images/arrow-top-gray.png");
     }
-    .carousel-next-icon {
+    .carousel-next-icon, .carousel-next-icon-active {
         background-image: url("../images/arrow-bottom-gray.png");
     }
     .switch-left-btn, .switch-right-btn {

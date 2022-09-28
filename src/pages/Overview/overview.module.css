@@ -227,11 +227,8 @@
         height: 100%;
         margin-bottom: 0;
         padding-top: 94px;
-        background-image: url("../../images/overview-mobile-bg.png");
-        background-size: cover;
     }
     .video {
-        display: none;
         height: 100%;
     }
     .overview-vertical-menu {
