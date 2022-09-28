@@ -22,7 +22,8 @@ function ContentsBottom (props) {
           <p>Start all</p>over again
         </div>
       </div>
-      <div className={style["box-arrow-top"]}>
+      <div className={style["box-arrow-top"]} data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_top_left} alt="arrow_top_left"/>
       </div>
       <div className={style.box09}>
@@ -36,7 +37,8 @@ function ContentsBottom (props) {
           <p>Email</p>your data
         </div>
       </div>
-      <div className={style["box-arrow-bottom"]}>
+      <div className={style["box-arrow-bottom"]} data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_bottom_left} alt="arrow_bottom_left"/>
       </div>
       <div className={style.box08}>
@@ -50,7 +52,8 @@ function ContentsBottom (props) {
           <p>Create and</p>edit reports
         </div>
       </div>
-      <div className={style["box-arrow-top"]}>
+      <div className={style["box-arrow-top"]} data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_top_left} alt="arrow_top_left"/>
       </div>
       <div className={style.box07}>
@@ -64,7 +67,8 @@ function ContentsBottom (props) {
           <p>Add costing and</p>lifecycle data
         </div>
       </div>
-      <div className={style["box-arrow-bottom"]}>
+      <div className={style["box-arrow-bottom"]} data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_bottom_left} alt="arrow_bottom_left"/>
       </div>
       <div className={style.box06}>

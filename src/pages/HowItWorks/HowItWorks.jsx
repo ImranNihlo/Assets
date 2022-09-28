@@ -139,7 +139,8 @@ function HowItWorks (props) {
               <div className="carousel-item active">
                 <div className={style["works-content"]}>
                   <ContentsTop />
-                  <div className={style.vector}>
+                  <div className={style.vector} data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000"
+                       data-aos-easing="ease-in-out">
                     <img src={vector} alt="vector"/>
                   </div>
                   <ContentsBottom />

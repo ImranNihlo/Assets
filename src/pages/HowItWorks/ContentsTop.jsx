@@ -22,7 +22,8 @@ function ContentsTop (props) {
           <p>Collect notes</p> with pen & paper
         </div>
       </div>
-      <div className={style["box-arrow-top"]}>
+      <div className={style["box-arrow-top"]} data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_top} alt="arrow"/>
       </div>
       <div className={style.box02}>
@@ -36,7 +37,8 @@ function ContentsTop (props) {
           <p>Take photos</p> using a camera
         </div>
       </div>
-      <div className={style["box-arrow-bottom"]}>
+      <div className={style["box-arrow-bottom"]} data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_bottom} alt="arrow"/>
       </div>
       <div className={style.box03}>
@@ -50,7 +52,8 @@ function ContentsTop (props) {
           <p>Return to</p> the office
         </div>
       </div>
-      <div className={style["box-arrow-top"]}>
+      <div className={style["box-arrow-top"]} data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_top} alt="arrow"/>
       </div>
       <div className={style.box04}>
@@ -64,7 +67,8 @@ function ContentsTop (props) {
           <p>Review</p> your notes
         </div>
       </div>
-      <div className={style["box-arrow-bottom"]}>
+      <div className={style["box-arrow-bottom"]} data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"
+           data-aos-easing="ease-in-out">
         <img src={arrow_bottom} alt="arrow"/>
       </div>
       <div className={style.box05}>
